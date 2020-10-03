@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <cstdlib>
 #include <unistd.h>
-#include <windows.h>
 using namespace std;
 
 

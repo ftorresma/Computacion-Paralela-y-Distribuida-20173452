@@ -63,7 +63,7 @@ int main(){
 								SetConsoleTextAttribute(hConsole, 0);
 										cout<<"|";
 								CACHE.push(i);
-								if(CACHE.size()>=4){
+								if(CACHE.size()>=MAX){
 									CACHE.pop();
 									CACHE.push(i);
 								}
@@ -91,7 +91,7 @@ int main(){
 								SetConsoleTextAttribute(hConsole, 0);
 								cout<<"|";
 								CACHE.push(-k);
-								if(CACHE.size()>=4){
+								if(CACHE.size()>=MAX){
 									CACHE.pop();
 									CACHE.push(-k);
 								}
